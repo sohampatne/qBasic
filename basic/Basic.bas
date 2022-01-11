@@ -18,9 +18,7 @@ Input "Your Answer: "; Answer
 CorrectAns = RanNum1 + RanNum2
 
 'If else condition
-If Answer = CorrectAns Then Print "Your Answer is Correct! Good job!" Else Input "Your answer is incorrect, Please Try Again: "; Answer
-If Answer = CorrectAns Then Print "Your Answer is Correct this time." Else Input "This is your last chance to give the right answer: "; Answer
-If Answer = CorrectAns Then Print "Your Answer is Correct this time." Else Print "I'm sorry, you've failed the test. I'm sure you'll do better next time"
+If Answer = CorrectAns Then Print "Your Answer is Correct! Good job!" Else Print "Your answer is incorrect."
 End
 
 
